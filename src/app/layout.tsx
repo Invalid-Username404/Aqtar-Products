@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Products App - Store",
     description: "A product management application using the Store API",
-    url: "https://domain.com",
+    url: "https://aqtar-products.vercel.app/",
     siteName: "Products App",
     type: "website",
     images: [
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     images: ["/twitter-image.jpg"],
   },
   robots: "index, follow",
-  metadataBase: new URL("https://domain.com"),
+  metadataBase: new URL("https://aqtar-products.vercel.app/"),
 };
 
 export default function RootLayout({
